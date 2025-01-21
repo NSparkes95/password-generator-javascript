@@ -1,0 +1,30 @@
+{
+  "name": "password-generator-javascript",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate random and customizable passwords.",
+  "main": "passwordGenerator.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node passwordGenerator.js --length 8 --numbers --symbols"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NSparkes95/password-generator-javascript.git"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Nicole Sparkes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSparkes95/password-generator-javascript/issues"
+  },
+  "homepage": "https://github.com/NSparkes95/password-generator-javascript#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0"
+  }
+}
